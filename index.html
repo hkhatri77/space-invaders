@@ -1,15 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-
-<head>
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <script type="text/javascript">
+    </script>
+    <script src="./dist/app-browserify.js"></script>
     <link rel="stylesheet" type="text/css" href="./dist/style.css">
-</head>
+  </head>
 
-<body>
-    <div class="container"></div>
-    <script type="text/javascript" src="./dist/app-browserify.js"></script>
-</body>
+  <body>
 
+    <audio id="shoot-sound" src="/space-invaders/shoot.mp3"></audio>
+
+    <div class="grid-element project">
+      <canvas id="space-invaders" width="300" height="300">
+     
+     <div id="Invader"></div> 	
+
+      </canvas>
+    </div>
+
+  </body>
 </html>

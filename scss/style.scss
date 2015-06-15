@@ -88,3 +88,29 @@ img {
 /**
  * YOUR CODE HERE
  */
+
+.grid {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.grid-element {
+  height: 360px;
+  width: 300px;
+  margin: 20px;
+}
+
+.grid-element.project {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-element.main {
+  float: left;
+}
+
+#Invader{
+    background-color: red;
+    color: red;
+}
+
